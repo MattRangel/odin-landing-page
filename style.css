@@ -1,0 +1,179 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	font-family: roboto;
+}
+
+.content {
+	flex-direction: column;
+}
+
+.header, .welcome, .action-call {
+	padding-left: 175px;
+	padding-right: 175px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.header>ul {
+	gap: 1.5em;
+}
+
+.footer>ul {
+	gap: 0.5em;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	margin-bottom: -10px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: bolder;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	margin: 0.5em 0em;
+	font-size: 18px;
+}
+
+.header, .welcome, .footer {
+	background-color: #1F2937;
+	color: #F9FAF8;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1em;
+}
+
+.welcome {
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	gap: 50px;
+}
+
+.welcome>div {
+	flex: 1;
+}
+
+.welcome p, .action-call p {
+	color: #E5E7EB;
+}
+
+button {
+	background-color: #3882F6;
+	border: none;
+	padding: 8px 32px;
+	font-weight: bold;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+.main-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+}
+
+.footer {
+	display: flex;
+	height: 5em;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-pics {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.info-pics>h2 {
+	margin: 40px 0px;
+}
+
+.info-pics p {
+	color: dimgray;
+	font-size: 16px;
+}
+
+.pic-deck {
+	display: flex;
+	justify-content: center;
+	gap: 3em;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 150px;
+}
+
+.mini-photo {
+	width: 150px;
+	height: 150px;
+	outline: 4px solid #3882F6;
+	align: center;
+	border-radius: 16px;
+}
+
+.quote-box {
+	padding: 100px 250px;
+	background-color: #E5E7EB;
+}
+
+.quote-box>h3 {
+	text-align: right;
+}
+
+.quote-box>p {
+	color: #1F2937;
+	font-style: italic;
+	font-size: 36px;
+	font-weight: light;
+	margin: 0px;
+}
+
+.action-call {
+	display: flex;
+	background-color: #3882F6;
+	border-radius: 16px;
+	margin: 85px 175px;
+	padding: 40px 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.action-call button {
+	border: 2px solid #F9FAF8;
+}
+
+.action-call h3 {
+	color: #F9FAF8;
+}
